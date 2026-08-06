@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">حراست سبحان بتن</string>
+    <string name="app_subtitle">مدیریت ورود و خروج</string>
+
+    <string name="category_personnel">پرسنل</string>
+    <string name="category_machinery">ماشین‌آلات</string>
+    <string name="category_visitor">مراجعین</string>
+    <string name="category_driver">رانندگان</string>
+
+    <string name="inside_count_format">%1$d نفر / مورد داخل کارخانه</string>
+
+    <string name="empty_list_roster">هنوز موردی ثبت نشده است.\nبرای افزودن، دکمه + را بزنید.</string>
+    <string name="empty_list_inside">در حال حاضر کسی داخل کارخانه نیست.</string>
+    <string name="empty_search">نتیجه‌ای یافت نشد.</string>
+
+    <string name="add_new">افزودن جدید</string>
+    <string name="add_new_person_title">ثبت مورد جدید</string>
+    <string name="hint_name">نام</string>
+    <string name="hint_extra_info">اطلاعات تکمیلی (اختیاری)</string>
+    <string name="hint_extra_info_machinery">شماره پلاک (اختیاری)</string>
+    <string name="hint_department">دپارتمان</string>
+    <string name="hint_machinery_group">گروه ماشین (مثلاً: میکسر، پمپ، وانت)</string>
+    <string name="hint_blacklist">لیست سیاه (مسدود کردن ورود)</string>
+    <string name="status_blacklisted">مسدود</string>
+    <string name="blacklist_toggled_success">وضعیت لیست سیاه به‌روزرسانی شد</string>
+
+    <string name="cargo_type_title">نوع محموله خروجی</string>
+    <string name="machinery_filter_all">همه ماشین‌آلات</string>
+    <string name="machinery_filter_mixer">میکسرها</string>
+    <string name="machinery_filter_dump_truck">کمپرسی و تریلی</string>
+    <string name="machinery_filter_pump">پمپ بتن</string>
+    <string name="machinery_filter_logistics">تدارکات</string>
+    <string name="settings_section_cargo_options">گزینه‌های بار هر دسته ماشین‌آلات</string>
+    <string name="settings_cargo_options_hint">هر گزینه را در یک خط بنویسید. این گزینه‌ها موقع ثبت خروج، فقط برای ماشین‌های همان دسته نمایش داده می‌شوند.</string>
+    <string name="cargo_options_saved">گزینه‌های بار ذخیره شد.</string>
+    <string-array name="cargo_types">
+        <item>بتن آماده</item>
+        <item>گازوئیل</item>
+        <item>نخاله و خاک</item>
+        <item>اعزام به تعمیرگاه</item>
+        <item>شن و ماسه معدنی</item>
+        <item>بدون بار (خالی)</item>
+    </string-array>
+
+    <string name="shortcut_register_guest_short">ثبت مهمان</string>
+    <string name="shortcut_register_guest_long">ثبت ورود مهمان جدید</string>
+    <string name="shortcut_dashboard_short">پنل مدیریت</string>
+    <string name="shortcut_dashboard_long">باز کردن پنل مدیریت</string>
+
+    <string name="new_visitor_checkin_title">ثبت ورود مهمان جدید</string>
+    <string name="hint_visitor_name">نام مهمان</string>
+    <string name="hint_visitor_department">واحد یا بخش مورد مراجعه</string>
+
+    <string name="new_driver_checkin_title">ثبت ورود راننده جدید</string>
+    <string name="hint_driver_name">نام راننده</string>
+    <string name="hint_driver_vehicle">ماشین معمول راننده (اختیاری)</string>
+
+    <string name="btn_save">ثبت</string>
+    <string name="btn_cancel">انصراف</string>
+    <string name="btn_checkin">ورود</string>
+    <string name="btn_checkout">خروج</string>
+    <string name="btn_confirm_checkout">تایید خروج</string>
+    <string name="btn_undo">لغو (بازگشت)</string>
+
+    <string name="status_inside">داخل</string>
+    <string name="status_outside">خارج</string>
+
+    <string name="checkin_success">ورود ثبت شد</string>
+    <string name="checkout_success">خروج ثبت شد</string>
+    <string name="person_added_success">با موفقیت ثبت شد</string>
+    <string name="error_generic">خطایی رخ داد</string>
+    <string name="error_name_empty">وارد کردن نام الزامی است</string>
+    <string name="error_department_empty">وارد کردن واحد مورد مراجعه الزامی است</string>
+
+    <string name="confirm_checkout_message">آیا از ثبت خروج «%1$s» اطمینان دارید؟</string>
+    <string name="last_status_format">وضعیت: %1$s</string>
+
+    <string name="log_entered_format">%1$s وارد شد</string>
+    <string name="log_exited_format">%1$s خارج شد</string>
+    <string name="recent_activity_empty">هنوز رویدادی ثبت نشده است</string>
+
+    <string name="search_hint">جست‌وجوی سریع…</string>
+    <string name="menu_search">جست‌وجو</string>
+    <string name="menu_setup">تنظیمات اولیه</string>
+    <string name="menu_report">گزارش‌ها</string>
+    <string name="menu_settings">تنظیمات نمایش</string>
+
+    <string name="settings_title">تنظیمات نمایش و کلیک</string>
+    <string name="settings_section_display">نمایش</string>
+    <string name="settings_section_interaction">تعامل / کلیک</string>
+    <string name="settings_section_theme">پوسته برنامه</string>
+    <string name="settings_show_recent_activity">نمایش فعالیت اخیر در هر تب</string>
+    <string name="settings_inside_first">نمایش موارد «داخل» در بالای هر بخش</string>
+    <string name="settings_haptic">لرزش هنگام تایید ورود/خروج</string>
+    <string name="settings_quick_tap">کلیک سریع (رد کردن منوی انتخاب برای ورود)</string>
+    <string name="settings_quick_tap_hint">در این حالت، کلیک روی یک مورد «خارج» بلافاصله ورود آن را ثبت می‌کند. خروج همیشه نیاز به تایید دارد.</string>
+    <string name="settings_theme_system">پیش‌فرض سیستم</string>
+    <string name="settings_theme_light">روشن</string>
+    <string name="settings_theme_dark">تیره</string>
+
+    <string name="settings_section_ai">تحلیل هوشمند (هوش مصنوعی)</string>
+    <string name="settings_ai_hint">برای فعال شدن «تحلیل هوشمند» در گزارش‌ها، «پردازش عکس پرسنلی» و «تشخیص خودکار پلاک» در تنظیمات اولیه، یک کلید رایگان Gemini از aistudio.google.com/apikey بسازید و اینجا وارد کنید. این کلید فقط روی گوشی شما ذخیره می‌شود.</string>
+    <string name="settings_ai_key_hint">کلید API</string>
+    <string name="ai_key_saved">کلید API ذخیره شد</string>
+
+    <string name="settings_section_web_panel">پنل مدیریت وب</string>
+    <string name="settings_web_panel_hint">آدرس اینترنتی پنل مدیریت وب که میزبانی کرده‌اید را اینجا وارد کنید (مثلاً از GitHub Pages). با زدن دکمه «پنل مدیریت وب» در بالای صفحه اصلی، این آدرس در مرورگر گوشی باز می‌شود.</string>
+    <string name="settings_web_panel_url_hint">آدرس پنل (URL)</string>
+    <string name="web_panel_url_saved">آدرس پنل ذخیره شد</string>
+
+    <string name="menu_web_panel">پنل مدیریت وب</string>
+    <string name="web_panel_url_missing_title">آدرس پنل تنظیم نشده</string>
+    <string name="web_panel_url_missing_message">ابتدا آدرس پنل مدیریت وب را در صفحه تنظیمات وارد کنید.</string>
+
+    <string name="edit_person_title">ویرایش مشخصات</string>
+    <string name="btn_edit">ویرایش</string>
+    <string name="edit_success">تغییرات ذخیره شد</string>
+    <string name="long_press_hint">برای ویرایش مشخصات، لمس طولانی کنید</string>
+
+    <string name="report_analytics_sheet_name">خلاصه آماری</string>
+    <string name="col_summary_metric">شاخص</string>
+    <string name="col_summary_value">مقدار</string>
+    <string name="summary_total_events">کل رویدادها در این بازه</string>
+    <string name="summary_total_in">کل ورودها</string>
+    <string name="summary_total_out">کل خروج‌ها</string>
+    <string name="summary_currently_inside">در حال حاضر داخل کارخانه (اکنون)</string>
+    <string name="summary_by_category_header">بر اساس دسته</string>
+
+    <string name="setup_title">تنظیمات اولیه</string>
+    <string name="setup_subtitle_personnel">افزودن عکس پرسنلی</string>
+    <string name="setup_subtitle_machinery">افزودن عکس ماشین‌آلات</string>
+    <string name="setup_subtitle_driver">افزودن عکس رانندگان</string>
+    <string name="setup_pick_image">انتخاب عکس</string>
+    <string name="setup_take_photo">گرفتن عکس</string>
+    <string name="setup_image_updated">عکس به‌روزرسانی شد</string>
+    <string name="setup_photo_read_error">خطا در خواندن تصویر انتخاب‌شده</string>
+
+    <string name="btn_ok">باشه</string>
+
+    <!-- AI personnel/driver headshot (Gemini image editing) -->
+    <string name="ai_headshot_dialog_title">پردازش عکس با هوش مصنوعی</string>
+    <string name="ai_headshot_dialog_message">می‌خواهید این عکس به یک تصویر پرسنلی مرتب تبدیل شود؟ فقط پس‌زمینه و قاب تصویر تغییر می‌کند و چهره دقیقاً همان چهره اصلی باقی می‌ماند.</string>
+    <string name="ai_headshot_dialog_yes">بله، پردازش شود</string>
+    <string name="ai_headshot_dialog_no">خیر، همین عکس</string>
+    <string name="ai_headshot_processing">در حال آماده‌سازی عکس پرسنلی با هوش مصنوعی…</string>
+    <string name="ai_headshot_preview_title">پیش‌نمایش عکس پردازش‌شده</string>
+    <string name="ai_headshot_preview_hint">چهره بدون تغییر باقی مانده؛ فقط پس‌زمینه و قاب تصویر بازسازی شده است.</string>
+    <string name="ai_headshot_use_new">ذخیره عکس جدید</string>
+    <string name="ai_headshot_use_original">ذخیره عکس اصلی</string>
+    <string name="ai_headshot_error_title">خطا در پردازش هوش مصنوعی</string>
+    <string name="ai_headshot_retry">تلاش دوباره</string>
+
+    <!-- AI license-plate detection (Gemini vision) -->
+    <string name="plate_scan_title">تشخیص خودکار پلاک</string>
+    <string name="plate_scan_pick_gallery">انتخاب چند عکس از گالری</string>
+    <string name="plate_scan_take_photo">گرفتن عکس با دوربین</string>
+    <string name="plate_scan_progress_format">در حال بررسی تصویر %1$d از %2$d…</string>
+    <string name="plate_scan_result_title">نتیجه تشخیص پلاک</string>
+    <string name="plate_scan_result_read_error">خطا در خواندن تصویر</string>
+    <string name="plate_scan_result_no_plate">پلاکی در تصویر تشخیص داده نشد</string>
+    <string name="plate_scan_result_no_match_format">پلاک %1$s در سیستم ثبت نشده است</string>
+    <string name="plate_scan_result_success_format">عکس با موفقیت به «%1$s» متصل شد</string>
+
+    <string name="report_title">گزارش‌ها و خروجی اکسل</string>
+    <string name="report_from_date">از تاریخ</string>
+    <string name="report_to_date">تا تاریخ</string>
+    <string name="report_export_button">دریافت خروجی اکسل</string>
+    <string name="report_export_success">فایل اکسل با موفقیت ساخته شد</string>
+    <string name="report_export_empty">در این بازه زمانی هیچ رویدادی ثبت نشده است</string>
+    <string name="report_row_count_format">%1$d ردیف برای خروجی یافت شد</string>
+
+    <string name="col_name">نام / مورد</string>
+    <string name="col_category">دسته</string>
+    <string name="col_department">واحد / گروه</string>
+    <string name="col_action">نوع رویداد</string>
+    <string name="col_timestamp">تاریخ و ساعت</string>
+    <string name="action_in_label">ورود</string>
+    <string name="action_out_label">خروج</string>
+
+    <string name="global_search_title">جست‌وجوی کلی</string>
+
+    <string name="login_hint_name">نام و نام خانوادگی</string>
+    <string name="login_hint_email">ایمیل</string>
+    <string name="login_hint_password">رمز عبور</string>
+    <string name="login_btn_signin">ورود</string>
+    <string name="login_btn_signup">ساخت حساب جدید</string>
+    <string name="login_toggle_to_signup">حساب ندارید؟ ثبت‌نام کنید</string>
+    <string name="login_toggle_to_signin">حساب دارید؟ وارد شوید</string>
+    <string name="login_error_email">ایمیل معتبر وارد کنید</string>
+    <string name="login_error_password">رمز عبور باید حداقل ۶ کاراکتر باشد</string>
+    <string name="login_signup_success">حساب شما با نقش «%1$s» ساخته شد</string>
+    <string name="menu_sign_out">خروج از حساب</string>
+    <string name="sign_out_confirm_title">خروج از حساب</string>
+    <string name="sign_out_confirm_message">آیا مطمئن هستید که می‌خواهید از حساب کاربری خارج شوید؟</string>
+    <string name="signed_in_as_format">%1$s (%2$s)</string>
+
+    <string name="menu_dashboard">پنل مدیریت</string>
+    <string name="dashboard_title">پنل مدیریت و نظارت</string>
+    <string name="dashboard_live_now">وضعیت زنده کارخانه</string>
+    <string name="dashboard_all_inside_header">همه افراد و ماشین‌آلات داخل کارخانه</string>
+    <string name="dashboard_empty_inside">در حال حاضر کسی/چیزی داخل کارخانه نیست.</string>
+    <string name="dashboard_open_reports">مشاهده گزارش‌ها و خروجی اکسل</string>
+    <string name="dashboard_open_setup">تنظیمات اولیه (عکس‌ها)</string>
+
+    <string name="ai_analyze_button">تحلیل هوشمند گزارش (AI)</string>
+    <string name="ai_analyzing">در حال تحلیل توسط هوش مصنوعی…</string>
+    <string name="ai_result_title">نتیجه تحلیل هوش مصنوعی</string>
+    <string name="ai_key_missing_title">کلید API تنظیم نشده</string>
+    <string name="ai_key_missing_message">برای استفاده از تحلیل هوشمند، ابتدا یک کلید API رایگان در صفحه تنظیمات وارد کنید.</string>
+    <string name="ai_open_settings">رفتن به تنظیمات</string>
+
+    <string name="category_inspection">بازدید هفتگی</string>
+    <string name="inspection_list_title">بازدید ظاهری هفتگی ماشین‌آلات</string>
+    <string name="inspection_empty_list">ماشین‌آلاتی برای بازدید ثبت نشده است.</string>
+    <string name="inspection_done_this_week">این هفته انجام شد</string>
+    <string name="inspection_not_done_this_week">این هفته بازدید نشده</string>
+    <string name="inspection_never_done">تاکنون بازدید نشده</string>
+    <string name="inspection_last_result_format">آخرین بازدید: %1$s تایید، %2$s عدم تایید</string>
+    <string name="inspection_last_date_format">تاریخ آخرین بازدید: %1$s</string>
+    <string name="inspection_form_title">بازدید ظاهری</string>
+    <string name="inspection_form_subtitle_format">پلاک %1$s — راننده: %2$s</string>
+    <string name="inspection_status_ok">سالم</string>
+    <string name="inspection_status_defect">خراب</string>
+    <string name="inspection_notes_hint">توضیحات (اختیاری) — مثلاً تعمیر یا نقصی که باید پیگیری شود</string>
+    <string name="inspection_summary_format">%1$s مورد تایید — %2$s مورد عدم تایید</string>
+    <string name="inspection_submit">ثبت بازدید</string>
+    <string name="inspection_submit_success">بازدید هفتگی با موفقیت ثبت شد</string>
+    <string name="inspection_export_button">خروجی اکسل بازدید ظاهری</string>
+    <string name="inspection_export_empty">در این بازه، بازدیدی ثبت نشده است.</string>
+
+    <!-- Touch-diagram inspection form -->
+    <string name="inspection_diagram_hint">روی هر قسمت از ماشین ضربه بزنید: یک بار = نیاز به بررسی (زرد)، دو بار = خراب (قرمز)، سه بار = سالم. نگه‌داشتن انگشت مستقیم خراب علامت می‌زند. برای بزرگ‌نمایی و جابه‌جایی، مستقیم روی تصویر با دو انگشت یا با کشیدن انگشت عمل کنید.</string>
+    <string name="inspection_status_warn">نیاز به بررسی</string>
+    <string name="inspection_still_open_hint">دایره‌ی قرمز دور یک قسمت یعنی هفته‌ی قبل هم خراب بوده و هنوز تعمیر ثبت نشده — لطفاً وضعیت فعلی‌اش را بررسی و ثبت کنید.</string>
+    <string name="inspection_nonspatial_title">موارد بدون مکان مشخص روی بدنه</string>
+    <string name="inspection_note_dialog_title">یادداشت و عکس ایراد</string>
+    <string name="inspection_note_hint">توضیح کوتاه ایراد (اختیاری)</string>
+    <string name="inspection_attach_photo">افزودن عکس</string>
+    <string name="inspection_photo_attached">یک عکس ضمیمه شد</string>
+    <string name="inspection_save_note">ذخیره</string>
+
+    <!-- Open defects / repair closure -->
+    <string name="open_defects_title">دفترچه ایرادات باز</string>
+    <string name="open_defects_empty">در حال حاضر ایراد بازی ثبت نشده است.</string>
+    <string name="open_defects_item_format">%1$s — %2$s</string>
+    <string name="open_defects_recurring_badge">تکراری از هفته قبل</string>
+    <string name="open_defects_mark_repaired">ثبت تعمیر</string>
+    <string name="open_defects_repaired_success">تعمیر ثبت شد</string>
+
+    <!-- Fleet heatmap -->
+    <string name="fleet_heatmap_title">نقشه حرارتی ایرادات ناوگان</string>
+    <string name="fleet_heatmap_hint">رنگ هر قسمت بر اساس تعداد دفعاتی که در این بازه به‌عنوان ایراد ثبت شده، از خاکستری (کم) تا قرمز (زیاد) است.</string>
+    <string name="fleet_heatmap_empty">در این بازه، بازدیدی برای این دسته ثبت نشده است.</string>
+    <string name="fleet_heatmap_open_button">نقشه حرارتی ناوگان</string>
+
+    <string name="inspection_all_done_this_week">همه‌ی ماشین‌های این دسته، بازدید این هفته‌شان ثبت شده است. هفته‌ی بعد دوباره در این لیست ظاهر می‌شوند.</string>
+
+    <string name="app_credit">طراحی و توسعه: سعید رضایی</string>
+</resources>
